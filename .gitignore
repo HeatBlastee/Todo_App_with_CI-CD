@@ -1,0 +1,53 @@
+# General
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# React (Vite or CRA)
+client/.env
+client/node_modules/
+client/dist/
+client/.vite/
+client/.next/
+client/build/
+
+# Server
+server/node_modules/
+server/.env
+
+# Docker
+docker-compose.override.yml
+docker-volume/
+*.local
+
+# Jenkins
+jenkins_home/
+*.jenkins
+
+# VSCode
+.vscode/
+
+# Coverage
+coverage/
+*.lcov
+
+# Optional
+*.swp
+*.swo
