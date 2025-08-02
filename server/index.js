@@ -3,7 +3,7 @@ import cors from "cors";
 import Todo from "./models/todo.schema.js";
 import mongoose from "mongoose";
 import dotenv from 'dotenv';
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8000
 dotenv.config({});
 const app = express();
 
